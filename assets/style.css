@@ -62,8 +62,22 @@ color:var (--text-color);
 font-weight: 700;
 }
 
+.cartao:hover .cartao__conteudo{
+transform: rotatey(180deg);
 
+}
 
+.cartao__conteudo__pergunta,
+.cartao__conteudo__pergunta{
+  backface-visibility: hidden;
+  position: absolute;
+  height:100%;
+ width:100%;
+}
+
+.cartao__conteudo__resposta{
+    transform: rotateY(180)
+}
 
 
 
